@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Xrm.LookupFilter", "Xrm.LookupFilter\Xrm.LookupFilter.njsproj", "{FE2D81C0-1F01-4435-9BEA-19CEA51394E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3540C51A-99CE-4C56-8059-04BDF69F93DA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2D81C0-1F01-4435-9BEA-19CEA51394E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2D81C0-1F01-4435-9BEA-19CEA51394E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2D81C0-1F01-4435-9BEA-19CEA51394E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2D81C0-1F01-4435-9BEA-19CEA51394E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11CBD728-5854-4BB3-89C6-C5CC93838758}
+	EndGlobalSection
+EndGlobal

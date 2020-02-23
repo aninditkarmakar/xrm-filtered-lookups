@@ -1,0 +1,44 @@
+[
+	{
+		"fieldName": "cbas_orrid",
+		"config": {
+			"overrideIfPreviouslyDisabled": false
+		},
+		"parents": [],
+		"filter": null
+	},
+	{
+		"fieldName": "cbas_comf",
+		"config": {
+			"overrideIfPreviouslyDisabled": false
+		},
+		"parents": [],
+		"filter": null
+	},
+	{
+		"fieldName": "cbas_allocationprojectcode",
+		"parents": [
+			"cbas_comf"
+		],
+		"filter": {
+			"xml": "<filter type='and' ><condition attribute='cbas_comfnumber' operator='eq' value='{0}' /></filter>",
+			"inject_values": [
+				"cbas_comf"
+			]
+		}
+	},
+	{
+		"fieldName": "cbas_taskcode",
+		"parents": [
+			"cbas_orrid",
+			"cbas_allocationprojectcode"
+		],
+		"filter": {
+			"xml": "<filter type='and' ><condition attribute='cbas_projectcode' operator='eq' value='{0}' /><condition attribute='cbas_orrid' operator='eq' value='{1}' /></filter>",
+			"inject_values": [
+				"cbas_allocationprojectcode",
+				"cbas_orrid"
+			]
+		}
+	}
+]

@@ -1,0 +1,26 @@
+{
+  "name": "d365.web-resources.lookup-filter",
+  "version": "0.0.0",
+  "description": "D365.WebResources.LookupFilter",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "rollup": "rollup --config"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.14",
+    "@types/uuid": "^3.4.7",
+    "@types/xrm": "^9.0.21",
+    "ts-loader": "^6.2.1",
+    "tslib": "^1.11.0",
+    "typescript": "^3.2.2",
+    "uuid": "^3.4.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {}
+}
