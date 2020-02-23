@@ -24,7 +24,7 @@ developmentConfig = {
         extensions: ['.ts', '.js']
     },
     output: {
-        library: 'MCS',
+        library: 'XrmLibrary',
         filename: '[name].js',
         path: path.resolve(__dirname, 'build')
     }
